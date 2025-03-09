@@ -8,6 +8,7 @@ const navigation = [
   { name: 'Services', href: '/services' },
   { name: 'Apply', href: '/apply' },
   { name: 'Contact', href: '/contact' },
+  { name: 'Investors', href: '/investor-login' },
 ];
 
 export default function Navbar() {
@@ -18,8 +19,8 @@ export default function Navbar() {
       <nav className="section-container py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center">
-            <span className="text-2xl font-cursive font-bold text-geelraca-green">
-              Geelraca Firm
+            <span className="text-2xl font-bold text-geelraca-green">
+              <span className="font-cursive">Geelraca</span> Firm
             </span>
           </Link>
           

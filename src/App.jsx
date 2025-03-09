@@ -7,6 +7,8 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Apply from './pages/Apply';
 import Contact from './pages/Contact';
+import InvestorLogin from './pages/InvestorLogin';
+import InvestorDashboard from './pages/InvestorDashboard';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/apply" element={<Apply />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/investor-login" element={<InvestorLogin />} />
+          <Route path="/investor-dashboard" element={<InvestorDashboard />} />
         </Routes>
       </main>
       <Footer />
