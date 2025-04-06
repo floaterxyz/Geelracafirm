@@ -1,12 +1,15 @@
 {
-  "name": "geelraca-firm",
+  "name": "geelracafirm",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A simple Node.js project to run a website",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server.js"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -14,7 +17,8 @@
     "react-router-dom": "^6.22.1",
     "react-icons": "^5.0.1",
     "@headlessui/react": "^1.7.18",
-    "@heroicons/react": "^2.1.1"
+    "@heroicons/react": "^2.1.1",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
